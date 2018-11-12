@@ -1,0 +1,23 @@
+{
+  "name": "react-first-screen",
+  "version": "1.0.0",
+  "description": "",
+  "main": "server.js",
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "scripts": {
+    "build": "babel src/server.js src/components/Layout.js -d build",
+    "start": "npm run build && node build/src/server.js"
+  },
+  "dependencies": {
+    "express": "^4.16.3",
+    "react": "^16.5.2",
+    "react-dom": "^16.5.2"
+  },
+  "devDependencies": {
+    "babel-cli": "^6.26.0",
+    "babel-preset-env": "^1.7.0",
+    "babel-preset-react": "^6.24.1"
+  }
+}
